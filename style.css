@@ -19,7 +19,7 @@
 }
 
 .logo {
-  background-image: url("amazon_logo.png");
+  background-image: url("amazonlogo.JPG");
   height: 60px;
   width: 100%;
   background-size: cover;
@@ -33,7 +33,7 @@
 .nav-addrees {
   display: flex;
   flex-direction: column;
-  margin-right: 10px; /* Adjust as needed */
+  margin-right: 10px; 
 }
 
 .location {
@@ -171,7 +171,7 @@
 }
 
 .hero {
-  background-image: url("hero_image.jpg");
+  background-image: url("heroimage.JPG");
   height: 400px;
   background-size: cover;
   display: flex;
