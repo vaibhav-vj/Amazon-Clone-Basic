@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.navbar {
+  height: 60px;
+  color: white;
+  background-color: #000000cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 113px;
+}
+
+.logo {
+  background-image: url("amazon_logo.png");
+  height: 60px;
+  width: 100%;
+  background-size: cover;
+}
+
+.nav-addrees-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav-addrees {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 3px;
+}
+
+.add-first {
+  color: white;
+  font-size: 10px;
+}
+
+.add-second {
+  color: white;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.nav-addrees-wrapper:hover {
+  border: 1px solid white;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid white;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.select-search {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  background-color: #febd69;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+}
+
+.flag-container {
+  display: flex;
+  align-items: center;
+}
+
+.india-flag {
+  width: 21.6px;
+  height: 16.6px;
+  margin-right: 5px;
+}
+
+.india-name {
+  margin-right: 10px;
+}
+
+.country-select {
+  width: 100%;
+  height: 15px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+}
+
+.cart i {
+  font-size: 30px;
+}
+
+.cart-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.cart-name {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.nav-bar:hover {
+  border: 2px solid orange;
+}
+
+.panel {
+  display: flex;
+  background-color: #222f3d;
+  height: 40px;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-ops p {
+  display: inline;
+}
+
+.panel-ops {
+  width: 95%;
+}
+
+.hero {
+  background-image: url("./hero_image.jpg");
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-text {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.hero-text a {
+  color: #007185;
+}
+
+.shop-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #c3d7d8;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 10px;
+}
+
+.box-image1 {
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.navFooterBackToTopText{
+  background-color: #37475a;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  
+
+}
+.backtotoptext{
+  color: white;
+  font-size: 10pt;
+}
+
+.navfooter-opt{
+  display: flex;
+  background-color:#232f3e;
+  color: white;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-left: 5px;
+}
+
+.navfooter-opt a{
+  color: #dddddd;
+  
+  font-size: 10pt;
+  text-decoration: none;
+  
+}
+
+ a:hover{
+  text-decoration: underline;
+}
+.knowus-col{
+  margin-left: 5px;
+}
+
+.title-footer{
+  font-weight: bold;
+}
+.footer-icon{
+  width: 50px;
+  height: 50px;
+}
+.footer-logo{
+  width: 50px;
+  height: 50px;
+}
+.footer-info{
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  color: white;
+}
+
+.f-box{
+ padding: 5px;
+}
+.footer-select{
+  width: 10px;
+}
+.footer-last-box{
+  background-color: #131921;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-copyright
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+ padding-top: 50px;
+ gap: 20px;
+}
+
