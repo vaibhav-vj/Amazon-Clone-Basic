@@ -171,7 +171,7 @@
 }
 
 .hero {
-  background-image: url("./hero_image.jpg");
+  background-image: url("hero_image.jpg");
   height: 400px;
   background-size: cover;
   display: flex;
