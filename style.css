@@ -19,7 +19,7 @@
 }
 
 .logo {
-  background-image: url("amazonlogo.JPG");
+  background-image: url("Assets/amazonlogo.JPG");
   height: 60px;
   width: 100%;
   background-size: cover;
@@ -171,7 +171,7 @@
 }
 
 .hero {
-  background-image: url("heroimage.JPG");
+  background-image: url("Assets/heroimage.JPG");
   height: 400px;
   background-size: cover;
   display: flex;
